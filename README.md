@@ -13,6 +13,8 @@ Air Native Extension for mobile camera and gallery features (Android picker and 
 
 - Supports media connection scanner…
 
+- This ane fixes camera and cameraroll (pick or save) memory leak problem. 
+
 It has been developed by Azer Bulbul
 
 
