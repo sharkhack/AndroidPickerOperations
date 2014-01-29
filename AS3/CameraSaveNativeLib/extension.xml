@@ -1,0 +1,15 @@
+<extension xmlns="http://ns.adobe.com/air/extension/3.1">
+	<id>com.azer.android.camera</id>
+	<versionNumber>1</versionNumber>
+	
+	<platforms>
+		<platform name="Android-ARM">
+			<applicationDeployment>			
+				<nativeLibrary>camerasavenative.jar</nativeLibrary>
+				<initializer>com.azer.camera.CameraSaveExtension</initializer>
+				<finalizer>com.azer.camera.CameraSaveExtension</finalizer>						
+			</applicationDeployment>		
+		</platform>
+	</platforms>
+
+</extension>
